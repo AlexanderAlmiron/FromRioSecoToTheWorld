@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #F6E4B1;
+    color: aliceblue;
+}
+
+#historiaStyle h1 {
+    text-align: center;
+    font-family: "Arizonia", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 90px;
+    color: black;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+
+#historiaStyle img {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#historiaStyle p {
+    display: flex;
+    margin-left: 35%;
+    margin-top: -32%;
+    margin-right: 5%;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.log img{
+    position: fixed;
+    top: 15px;
+    left: 25px;
+}
