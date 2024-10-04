@@ -13,9 +13,10 @@ export const ingles = `
             </label>
             <ul class="links">
                 <li><a class="items" href="#introduccion">Introduction</a></li>
-                <li><a class="items" href="#cultura">Cultuea</a></li>
-                <li><a class="items" href="#ubicacion">Ubication</a></li>
+                <li><a class="items" href="#cultura">Culture</a></li>
+                <li><a class="items" href="#ubicacion">location</a></li>
                 <li><a class="items" href="#historias">Histories</a></li>
+                <li><a class="items" href="#dondeComer">donde Comer</a></li>
                 <li><a class="items" href="#">PDF</a></li>
                 <li><a class="items" href="#">Videos</a></li>
             </ul>
@@ -78,8 +79,8 @@ This festival, that is realized annually, is one of the most important events of
     </div>
 </section>
 
-<section id="Ubication">
-    <h1>Ubicación</h1>
+<section id="ubicacion">
+    <h1>Location</h1>
     <div class="ubi">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13834.394308674417!2d-63.73295472915163!3d-29.904665249106685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9431a257c91bff41%3A0x1fe63a775e22c32c!2zVmlsbGEgZGUgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1725555133096!5m2!1ses-419!2sar"
@@ -87,7 +88,7 @@ This festival, that is realized annually, is one of the most important events of
     </div>
 </section>
 
-<section class="historias">
+<section id="historias" class="historias">
   <h1>Histories</h1>
   <div class="card" style="width: 18rem;">
     <a href="./hisoryPages/leopoldo/leopoldo.html" >
@@ -130,5 +131,40 @@ This festival, that is realized annually, is one of the most important events of
         </div>
   </a>
   </div> 
+</section>
+
+<section id="dondeComer" class="dondeComer">
+  <h1>Donde Comer?</h1>
+  <div class="card" style="width: 18rem;">
+    <img src="./img/RizzutoBar.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Rizzuto Resto Bar</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./img/YolandaResturante.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Yolanda Parrilla-Restaurante</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./img/PanaderiaSullay.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Panaderia Sullay</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./img/PanDeVida.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Parador Pan de Vida</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
 </section>
 `;
