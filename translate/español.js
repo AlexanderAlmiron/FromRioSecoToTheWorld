@@ -98,13 +98,9 @@ export const español = `
         celebración y homenaje a la cultura regional. </p>
     </div>
   </section>
-<h1>Ubicación</h1>
-  <section id="ubicacion" class="video-section">
-    
-    <!--<div class="ubi">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13834.394308674417!2d-63.73295472915163!3d-29.904665249106685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9431a257c91bff41%3A0x1fe63a775e22c32c!2zVmlsbGEgZGUgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1725555133096!5m2!1ses-419!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>-->
-    <div class="video-container">
+  <section id="ubicacion">
+  <h1>Ubicación</h1>
+    <div id=""video-ubicacion" class="video-container">
         <iframe src="https://www.youtube.com/embed/Q8qSowgVZfw?si=mU0QtrvM0OkRSipj" frameborder="0" allowfullscreen></iframe>
     </div>
     </section>
