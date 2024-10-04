@@ -100,7 +100,7 @@ export const español = `
   </section>
   <section id="ubicacion">
   <h1>Ubicación</h1>
-    <div id=""video-ubicacion" class="video-container">
+    <div id="video-ubicacion" class="video-container">
         <iframe src="https://www.youtube.com/embed/Q8qSowgVZfw?si=mU0QtrvM0OkRSipj" frameborder="0" allowfullscreen></iframe>
     </div>
     </section>
