@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
-    background-color: #fff2cb;
+    /* background-color: #fff2cb; */
 }
 header {
     width: 100%;
@@ -23,6 +23,26 @@ header {
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
     z-index: 1000;
+}
+#button {
+    background-color: #007BFF; /* Fondo azul para el botón */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 24px; /* Tamaño de la fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar */
+    transition: background-color 0.3s; /* Transición para el hover */
+    position: fixed; /* Posición fija */
+    bottom: 20px; /* Distancia del botón al fondo */
+    right: 20px; /* Distancia del botón a la derecha */
+}
+
+#button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+#button:active {
+    transform: translateY(0); /* Vuelve a la posición normal cuando se hace clic */
 }
 
 header .log img {
@@ -119,7 +139,7 @@ section {
     height: 140vh;
 }
 
-section h1 {
+h1 {
     font-family: 'Arizonia';
     font-size: 4rem;
     text-align: center;
@@ -162,7 +182,7 @@ section h1 {
 }
 
 #cultura {
-    height: 250vh;
+    height: 200vh;
 }
 
 #ubicacion{
@@ -179,6 +199,7 @@ section h1 {
 
 .historias .card{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .historias .card a{
@@ -220,7 +241,24 @@ section h1 {
     margin-bottom: 20px;
     text-align: center;
 }
-
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los divs */
+    height: 250px;
+}
+.video-container {
+    flex: 1; /* Cada div ocupará el mismo espacio */
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 200px;
+}
+iframe {
+    width: 100%; /* Ancho completo del div */
+    height: 200px; /* Altura fija para los videos */
+}
 
 
 
@@ -276,7 +314,7 @@ section h1 {
         height: 73vh;
     }
     #cultura {
-        height: 320vh;
+        height: 240vh;
     }
 
     #header p {
@@ -292,8 +330,8 @@ section h1 {
         
     }
 
-    #historas {
-        height: 260vh;
+    #historas{
+        height: 450vh;
     }
     .historias{
         display: grid;
@@ -309,7 +347,14 @@ section h1 {
         margin-top: 200px;
     }
     
-    
+    .video-section {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        gap: 10px; /* Espacio reducido entre los videos */
+    }
+
+    .video-container {
+        height: 150px; /* Ajusta la altura para pantallas más pequeñas */
+    }
 }
 
 @media (max-width: 480px) {
@@ -333,11 +378,19 @@ section h1 {
     }
 
     #cultura {
-        height: 400vh;
+        height: 280vh;
     }
 
     #historias {
-        height: 380vh;
+        height: 400vh;
+    }
+
+    #ubicacion{
+        height: 60vh;
+    }
+
+    #queHacer{
+        height: 220vh;
     }
     .historias{
         display: grid;
@@ -351,5 +404,9 @@ section h1 {
         margin: 0 auto;
         justify-items: center;
         margin-top: 800px;
+    }
+    
+    .video-container {
+        height: 120px; /* Altura aún más pequeña para móviles */
     }
 }
