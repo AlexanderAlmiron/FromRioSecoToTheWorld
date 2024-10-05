@@ -1,29 +1,30 @@
 export const ingles = `
 <div id="img_bc">
     <header>
-        <div class="log">
-            <a href="#img_bc">
-                <img src="img/logoSF.png" alt="logo" width="50px">
-            </a>
-        </div>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul class="links">
-                <li><a class="items" href="#introduccion">Introduction</a></li>
-                <li><a class="items" href="#cultura">Culture</a></li>
-                <li><a class="items" href="#ubicacion">Location</a></li>
-                <li><a class="items" href="#historias">Histories</a></li>
-                <li><a class="items" href="#queHacer">What to do?</a></li>
-                <li><a class="items" href="#dondeComer">Where to eat?</a></li>
-                <li><a class="items" href="#dondeDormir">Where to sleep?</a></li>
-                <li><a class="items" href="./pdf/GuiaPDF.pdf" download="GuiaPDF.pdf">PDF</a></li>
-                <li><a class="items" href="#video">Videos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="log">
+        <a href="#img_bc">
+            <img src="img/logoSF.png" alt="logo" width="50px">
+        </a>
+    </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="links">
+            <li><a class="items" href="#introduccion">Introduction</a></li>
+            <li><a class="items" href="#cultura">Culture</a></li>
+            <li><a class="items" href="#ubicacion">Location</a></li>
+            <li><a class="items" href="#historias">Histories</a></li>
+            <li><a class="items" href="#queHacer">What to do?</a></li>
+            <li><a class="items" href="#dondeComer">Where to eat?</a></li>
+            <li><a class="items" href="#dondeDormir">Where to sleep?</a></li>
+            <li><a class="items" href="./pdf/GuiaPDF.pdf" download="GuiaPDF.pdf">PDF</a></li>
+            <li><a class="items" href="#video">Videos</a></li>
+        </ul>
+    </nav>
+</header>
+
 
     <div class="title">
         <h3>From Rio seco <br> to the world</h3>
@@ -87,13 +88,11 @@ This festival, that is realized annually, is one of the most important events of
 </section>
 
 <section id="ubicacion">
-    <h1>Location</h1>
-    <div class="ubi">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13834.394308674417!2d-63.73295472915163!3d-29.904665249106685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9431a257c91bff41%3A0x1fe63a775e22c32c!2zVmlsbGEgZGUgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1725555133096!5m2!1ses-419!2sar"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <h1>Location</h1>
+    <div id="video-ubicacion" class="video-container">
+        <iframe src="https://www.youtube.com/embed/Q8qSowgVZfw?si=mU0QtrvM0OkRSipj" frameborder="0" allowfullscreen></iframe>
     </div>
-</section>
+    </section>
 <h1>Histories</h1>
 <section id="historias" class="historias">
   

@@ -280,19 +280,24 @@ footer {
         background-color: rgba(0, 0, 0, 0.8);
         flex-direction: column;
         align-items: center;
-        display: none;
+        display: none; /* Ocultar el menú por defecto */
     }
 
     nav ul li {
         margin: 15px 0;
     }
+
     .checkbtn {
-        display: block;
+        display: block; /* Mostrar el ícono de hamburguesa */
         position: absolute;
         right: 20px;
         top: 10px;
     }
 
+    /* Mostrar el menú cuando el checkbox está marcado */
+    #check:checked ~ ul {
+        display: flex; /* Mostrar el menú */
+    }
     .title {
         font-size: 3rem;
     }
