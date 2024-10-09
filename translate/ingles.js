@@ -35,11 +35,11 @@ export const ingles = `
 
     <div id="header">
         <p>
-            In Villa de María del Río Seco,
-            at the foot of Cerro del Romero, I was born.
-            And this is all I will say about myself,
-            because I am nothing more than the echo
-            of the native song I bring here.
+            In Villa de María del Río Seco,<br>
+            at the foot of Cerro del Romero, I was born.<br>
+            And this is all I will say about myself,<br>
+            because I am nothing more than the echo<br>
+            of the native song I bring here.<br>
             Leopoldo Lugones. 
         </p>
     </div>
