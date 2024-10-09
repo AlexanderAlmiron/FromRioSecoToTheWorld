@@ -10,7 +10,7 @@ export const español = `
                 <i class="fas fa-bars"></i>
             </label>
             <ul class="links">
-                <li><a class="items" href="../../index.html">home</a></li>
+                <li><a class="items" href="../../index.html">INICIO</a></li>
             </ul>
         </nav>
     </header>

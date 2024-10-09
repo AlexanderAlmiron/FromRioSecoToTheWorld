@@ -15,7 +15,7 @@ export const ingles = `
         </nav>
     </header>
 
-        <h1>Primeros Habitantes</h1>
+        <h1>First Population</h1>
 
     <section id="leo">
         <div class="cont">
