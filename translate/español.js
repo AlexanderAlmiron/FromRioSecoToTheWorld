@@ -19,6 +19,7 @@ export const español = `
           <li><a class="items" href="#queHacer">¿Qué Hacer?</a></li>
           <li><a class="items" href="#dondeComer">¿Dónde Comer?</a></li>
           <li><a class="items" href="#dondeDormir">¿Dónde Dormir?</a></li>
+          <li><a class="items" href="#galeria">Galeria de Fotos</a></li>
           <li><a class="items" href="./pdf/GuiaPDF.pdf" download="Guia.PDF">Guía PDF</a></li>
           <li><a class="items" href="#video">Videos</a></li>
         </ul>
@@ -52,7 +53,7 @@ export const español = `
         </div>
       </div>
       <p>
-        Villa de María del Río Seco es un pueblo ubicado al norte de la provincia de Córdoba, caracterizado más
+        La Villa de María del Río Seco es un pueblo ubicado al norte de la provincia de Córdoba, caracterizado más
         que nada por su cultura y conocido como la cuna de los poetas. El pueblo es famoso también por ser el
         lugar de nacimiento de Leopoldo Lugones, cuya casa natal se ha convertido en un museo y fue declarada
         monumento histórico nacional. 
@@ -165,7 +166,7 @@ export const español = `
       
       <div class="card" style="width: 18rem;">
 
-        <img src="./carrusel/cerrocolorado.jpg" class="card-img-top" alt="...">
+        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro Colorado</h5>
 
@@ -187,7 +188,7 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/WhatsApp Image 2024-07-27 at 11.11.25 (2).jpg" class="card-img-top" alt="...">
+        <img src="./carrusel/WhatsApp Image 2024-07-27 at 11.11.25 (2).jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Leopoldo Lugones</h5>
 
@@ -199,7 +200,7 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/museoarqueo.jfif" class="card-img-top" alt="...">
+        <img src="./carrusel/museoarqueo.jfif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Arqueológico</h5>
 
@@ -211,7 +212,7 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/villa-maria-rio-seco-5-1 (3).webp" class="card-img-top" alt="...">
+        <img src="./fotos_ingles/20250628_161823.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Capilla Cerro del Romero</h5>
 
@@ -223,10 +224,20 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/image (1).jpg" class="card-img-top" alt="...">
+        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Plaza Central</h5>
+          <h5 class="card-title">Plaza Centrall</h5>
         </div>
+
+
+      <div class="card" style="width: 18rem;">
+
+        <img src="../fotos_ingles/IMG_0070.JPG" class="card-img-center" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Casa Payador Gustavo Guichón</h5>
+        </div>
+
+
 
       </div>
     </div>
@@ -324,6 +335,21 @@ export const español = `
       </div>
     </div>
   </section> 
+
+<section id="galeria">
+  
+  <h2>Galería de Fotos</h2>
+  <div class="grupo-fotos">
+  <div class="fila-fotos">
+    <img src="./img/lastinajas.png" alt="Foto 1" />
+    <img src="./fotosGaleria/MuseoLugones/IMG_7469.DNG" alt="Foto 2" />
+    <img src="img/foto3.jpg" alt="Foto 3" />
+  </div>
+  <p class="nombre-lugar">Plaza Principal</p>
+</div>
+
+  </section>
+
 
 <h1>Videos</h1>
   <section class="video-section" id="video">

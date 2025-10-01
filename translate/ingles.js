@@ -40,7 +40,7 @@ export const ingles = `
             And this is all I will say about myself,<br>
             because I am nothing more than the echo<br>
             of the native song I bring here.<br>
-            Leopoldo Lugones. 
+            Leopoldo Lugones.
         </p>
     </div>
 
