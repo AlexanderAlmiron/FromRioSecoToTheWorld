@@ -1,57 +1,81 @@
 import { español } from './translate/español.js';
 import { ingles } from './translate/ingles.js'
 
+let currentIndex = 0;
+let slides = [];
+let totalSlides = 0;
+
 
 // logica del programa
 const root = document.getElementById('root')
 const button = document.getElementById('button')
 
-root.innerHTML = español
+root.innerHTML = español;
+inicializarCarrousel();
 let bandera = true
 
 
 
 button.addEventListener('click', () => {
+
     bandera = !bandera
     if(bandera){
         root.innerHTML = español
     }else{
         root.innerHTML = ingles
     }
+    inicializarCarrousel(); 
 })
 
-const gruposDeFotos = [
-  {
-    nombre: 'Museo Leopoldo Lugones',
-    imagenes: ['./img/lastinajas.png', './carrusel/iglesia1.webp', 'img/foto3.jpg']
-  },
-  {
-    nombre: 'Museo Arqueologico Enrique Ulla',
-    imagenes: ['img/foto4.jpg', 'img/foto5.jpg', 'img/foto6.jpg']
-  },
-  {
-    nombre: 'Posada Payador Guichón',
-    imagenes: ['./fotosGaleria/PosadaGuichon/IMG_0077.JPG', './fotosGaleria/PosadaGuichon/IMG_0100.JPG', './fotosGaleria/PosadaGuichon/IMG_0097.JPG']
-  },
-  {
-    nombre: 'Posada Payador Guichón',
-    imagenes: ['./fotosGaleria/PosadaGuichon/IMG_0072.JPG', './fotosGaleria/PosadaGuichon/IMG_0118.JPG', './fotosGaleria/PosadaGuichon/IMG_0119.JPG']
-  }
-];
+function inicializarCarrousel() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const totalSlides = slides.length;
+    if (totalSlides === 0) return;
+    
+    let currentIndex = 0;
+    
+    function updateCarousel() {
+        slides.forEach(slide => {
+            slide.className = 'carousel-slide'; // Limpia todas las clases de posición
+        });
 
-let grupoActual = 0;
+        // Asegurarse de que el número de diapositivas sea suficiente para el efecto
+        if (totalSlides < 5) {
+            // Manejar un número bajo de imágenes de forma elegante
+            // Por ejemplo, solo mostrar la imagen principal si solo hay una
+            if (totalSlides > 0) {
+                slides[0].classList.add('active');
+            }
+            return;
+        }
 
-setInterval(() => {
-  grupoActual = (grupoActual + 1) % gruposDeFotos.length;
+        // Asigna las clases a las imágenes en las posiciones deseadas
+        slides[currentIndex].classList.add('active');
+        
+        // La fórmula para manejar índices circulares de forma segura
+        const prev1Index = (currentIndex - 1 + totalSlides) % totalSlides;
+        const prev2Index = (currentIndex - 2 + totalSlides) % totalSlides;
+        const next1Index = (currentIndex + 1) % totalSlides;
+        const next2Index = (currentIndex + 2) % totalSlides;
 
-  const grupo = gruposDeFotos[grupoActual];
+        slides[prev1Index].classList.add('prev1');
+        slides[prev2Index].classList.add('prev2');
+        slides[next1Index].classList.add('next1');
+        slides[next2Index].classList.add('next2');
+    }
 
-  galeria.innerHTML = `
-    <div class="grupo-fotos">
-      <div class="fila-fotos">
-        ${grupo.imagenes.map(src => `<img src="${src}" alt="Foto" />`).join('')}
-      </div>
-      <p class="nombre-lugar">${grupo.nombre}</p>
-    </div>
-  `;
-}, 5000);
+    function showNextImage() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        updateCarousel();
+    }
+
+    updateCarousel(); // Inicializa el carrusel
+    
+    // Inicia el movimiento automático solo si hay más de una imagen
+    if (totalSlides > 1) {
+        setInterval(showNextImage, 5000);
+    } 
+};
+
+
+

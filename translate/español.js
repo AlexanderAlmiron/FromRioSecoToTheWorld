@@ -19,7 +19,7 @@ export const español = `
           <li><a class="items" href="#queHacer">¿Qué Hacer?</a></li>
           <li><a class="items" href="#dondeComer">¿Dónde Comer?</a></li>
           <li><a class="items" href="#dondeDormir">¿Dónde Dormir?</a></li>
-          <li><a class="items" href="#galeria">Galeria de Fotos</a></li>
+          <li><a class="items" href="#GaleriaFotos">Galeria de Fotos</a></li>
           <li><a class="items" href="./pdf/GuiaPDF.pdf" download="Guia.PDF">Guía PDF</a></li>
           <li><a class="items" href="#video">Videos</a></li>
         </ul>
@@ -110,7 +110,7 @@ export const español = `
     
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/leopoldo/leopoldo.html">
-        <img src="./img/Leopoldo_Lugones.jpg" class="card-img-top" alt="...">
+        <img src="img/Leopoldo_Lugones.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Leopoldo Lugones</h5>
           <p>Leopoldo Lugones (narrador, poeta, periodista, historiador, bibliotecario, pedagogo, docente, traductor,
@@ -123,7 +123,7 @@ export const español = `
 
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/pancho/pancho.html">
-        <img src="./img/pancho.jpg" class="card-img-top" alt="...">
+        <img src="img/pancho.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Francisco "Pancho" Ramírez</h5>
           <p>Pancho Ramírez era un caudillo entrerriano que sufrió una persecución finalizada en San Francisco de Chañar. Su historia es particularmente conocida porque fue decapitado y su cabeza fue expuesta en nuestro pueblo. 
@@ -133,7 +133,7 @@ export const español = `
     </div>
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/cautivita/cautivita.html">
-        <img src="./img/cautiva.jpg" class="card-img-top" alt="...">
+        <img src="img/cautiva.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Virgen Cautivita</h5>
           <p>Luego de que la Virgen del Rosario fuera tomada  por la fuerza y, posteriormente recuperada en un enfrentamiento memorable, se la conoce como “La Virgen Cautivita”, santa patrona de nuestro pueblo. </p>
@@ -142,7 +142,7 @@ export const español = `
     </div>
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/fundacion/fundacion.html">
-        <img src="./img/fundacion2.jpg" class="card-img-top" alt="...">
+        <img src="img/fundacion2.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fundacion del Pueblo</h5>
           <p>La localidad fue fundada en 1796 por orden del gobernador de la provincia, que tomó como base la población existente en torno del templo y la antigua posta de nuestro pueblo. </p>
@@ -151,7 +151,7 @@ export const español = `
     </div>
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/primeroHab/primeroshab.html">
-        <img src="./img/fundacion.jpg" class="card-img-top" alt="...">
+        <img src="img/fundacion.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Primeros Habitantes</h5>
           <p>Antes de su fundación, Villa de María era una zona habitada por dos tipos de aborígenes: los sanavirones, y los comechingones. </p>
@@ -165,21 +165,21 @@ export const español = `
 
       
       <div class="card" style="width: 18rem;">
-
-        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
+      <a href="./quehacer/cerroColorado/cerroColorado.html">
+        <img src="fotos_ingles/cerrocolorado.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro Colorado</h5>
-
+      </a>
         </div>
 
       </div>
 
       <div class="card" style="width: 18rem;">
-
-        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
+      <a href="./quehacer/santuario/santuario.html">
+        <img src="fotos_ingles/iglesiaNuevo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Iglesia</h5>
-
+      </a>
         </div>
 
       </div>
@@ -187,11 +187,11 @@ export const español = `
 
 
       <div class="card" style="width: 18rem;">
-
-        <img src="./carrusel/WhatsApp Image 2024-07-27 at 11.11.25 (2).jpg" class="card-img-top" alt="...">
+      <a href="./quehacer/museoLeopoldo/museoLeopoldo.html">
+        <img src="fotos_ingles/IMG_7469.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Leopoldo Lugones</h5>
-
+      </a>
         </div>
 
       </div>
@@ -199,11 +199,11 @@ export const español = `
 
 
       <div class="card" style="width: 18rem;">
-
-        <img src="./carrusel/museoarqueo.jfif" class="card-img-top" alt="...">
+      <a href="./quehacer/museoArqueologico/museoArqueologico.html">
+        <img src="fotos_ingles/MuseoUlla.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Arqueológico</h5>
-
+      </a>
         </div>
 
       </div>
@@ -211,11 +211,11 @@ export const español = `
 
 
       <div class="card" style="width: 18rem;">
-
-        <img src="./fotos_ingles/20250628_161823.jpg" class="card-img-top" alt="...">
+      <a href="./quehacer/capilladelCerro/capilladelCerro.html">
+        <img src="fotos_ingles/20250628_161823.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Capilla Cerro del Romero</h5>
-
+      </a>
         </div>
 
       </div>
@@ -223,30 +223,29 @@ export const español = `
 
 
       <div class="card" style="width: 18rem;">
-
-        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
+      <a href="./quehacer/plazaCentral/plazaCentral.html">
+        <img src="fotos_ingles/plazacentral.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Plaza Centrall</h5>
+          <h5 class="card-title">Plaza Central</h5>
+      </a>
         </div>
-
+      </div>
 
       <div class="card" style="width: 18rem;">
-
-        <img src="../fotos_ingles/IMG_0070.JPG" class="card-img-center" alt="...">
+      <a href="./quehacer/posadaelPayador/posadaelPayador.html">
+        <img src="fotos_ingles/PayadorGuichon.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Casa Payador Gustavo Guichón</h5>
+      </a>
         </div>
-
-
-
-      </div>
+    </div>
     </div>
   </section>
 <h1>¿Dónde Comer?</h1>
   <section id="dondeComer" class="dondeComer">
     
     <div class="card" style="width: 18rem;">
-      <img src="./img/RizzutoBar.png" class="card-img-top" alt="...">
+      <img src="img/RizzutoBar.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Rizzuto Resto Bar</h5>
         <p class="card-text">Av. Rizzutto, X5248 Villa de María, Córdoba</p>
@@ -254,7 +253,7 @@ export const español = `
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="./img/YolandaResturante.jpg" class="card-img-top" alt="...">
+      <img src="img/YolandaResturante.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Yolanda Parrilla-Restaurante</h5>
         <p class="card-text">Vicente Peñaloza, X5248 Villa de María, Córdoba</p>
@@ -262,7 +261,7 @@ export const español = `
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="./img/PanaderiaSullay.png" class="card-img-top" alt="...">
+      <img src="img/PanaderiaSullay.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Panaderia Sullay</h5>
         <p class="card-text">Jeronimo Luis de Cabrera S/N, X5248 Villa de María, Córdoba</p>
@@ -270,7 +269,7 @@ export const español = `
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="./img/PanDeVida.jpg" class="card-img-top" alt="...">
+      <img src="img/PanDeVida.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Parador Pan de Vida</h5>
         <p class="card-text">Vicente Peñaloza, X5248 Villa de María, Córdoba</p>
@@ -283,7 +282,7 @@ export const español = `
     <div class="dondeDormir">
       
       <div class="card" style="width: 18rem;">
-        <img src="./img/sayrhotel.jpg" class="card-img-top" alt="...">
+        <img src="img/sayrhotel.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Hotel Sayr</h5>
           <p class="card-text">RN9, Villa de María, Córdoba</p>
@@ -291,15 +290,15 @@ export const español = `
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="./img/lastinajas.png" class="card-img-top" alt="...">
+        <img src="img/lastinajas.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Hotel las Tijanas</h5>
+          <h5 class="card-title">Hotel las Tinajas</h5>
           <p class="card-text">Leopoldo Lugones 30, X5248 Villa de María, Córdoba</p>
         </div>
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="./img/evaapart.jfif" class="card-img-top" alt="...">
+        <img src="img/evaapart.jfif" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">EVA - Apart &amp; Cabañas</h5>
           <p class="card-text">Ing. Leopoldo Caro, X5248 Villa de María, Córdoba</p>
@@ -307,7 +306,7 @@ export const español = `
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="./img/ladorada.jpg" class="card-img-top" alt="...">
+        <img src="img/ladorada.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Estancia la Dorada</h5>
           <p class="card-text">Zona Rural, X5248 Rayo Cortado, Córdoba</p>
@@ -315,7 +314,7 @@ export const español = `
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="./img/cabaniasCentro.png" class="card-img-top" alt="...">
+        <img src="img/cabaniasCentro.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cabañas Centro</h5>
 
@@ -325,7 +324,7 @@ export const español = `
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img src="./img/laposada.png" class="card-img-top" alt="...">
+        <img src="img/laposada.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">La Posada</h5>
 
@@ -335,20 +334,6 @@ export const español = `
       </div>
     </div>
   </section> 
-
-<section id="galeria">
-  
-  <h2>Galería de Fotos</h2>
-  <div class="grupo-fotos">
-  <div class="fila-fotos">
-    <img src="./img/lastinajas.png" alt="Foto 1" />
-    <img src="./fotosGaleria/MuseoLugones/IMG_7469.DNG" alt="Foto 2" />
-    <img src="img/foto3.jpg" alt="Foto 3" />
-  </div>
-  <p class="nombre-lugar">Plaza Principal</p>
-</div>
-
-  </section>
 
 
 <h1>Videos</h1>

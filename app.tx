@@ -1,0 +1,59 @@
+import { español } from './translate/español.js';
+import { ingles } from './translate/ingles.js'
+
+
+// logica del programa
+const root = document.getElementById('root')
+const button = document.getElementById('button')
+
+root.innerHTML = español
+let bandera = true
+
+
+
+button.addEventListener('click', () => {
+    bandera = !bandera
+    if(bandera){
+        root.innerHTML = español
+    }else{
+        root.innerHTML = ingles
+    }
+})
+
+const gruposDeFotos = [
+  {
+    nombre: 'Museo Leopoldo Lugones',
+    imagenes: ['./img/lastinajas.png', './carrusel/iglesia1.webp', 'img/foto3.jpg']
+  },
+  {
+    nombre: 'Museo Arqueologico Enrique Ulla',
+    imagenes: ['img/foto4.jpg', 'img/foto5.jpg', 'img/foto6.jpg']
+  },
+  {
+    nombre: 'Posada Payador Guichón',
+    imagenes: ['./fotosGaleria/PosadaGuichon/IMG_0077.JPG', './fotosGaleria/PosadaGuichon/IMG_0100.JPG', './fotosGaleria/PosadaGuichon/IMG_0097.JPG']
+  },
+  {
+    nombre: 'Posada Payador Guichón',
+    imagenes: ['./fotosGaleria/PosadaGuichon/IMG_0072.JPG', './fotosGaleria/PosadaGuichon/IMG_0118.JPG', './fotosGaleria/PosadaGuichon/IMG_0119.JPG']
+  }
+];
+
+let grupoActual = 0;
+
+setInterval(() => {
+  grupoActual = (grupoActual + 1) % gruposDeFotos.length;
+
+  const grupo = gruposDeFotos[grupoActual];
+
+  galeria.innerHTML = `
+    <div class="grupo-fotos">
+      <div class="fila-fotos">
+        ${grupo.imagenes.map(src => `<img src="${src}" alt="Foto" />`).join('')}
+      </div>
+      <p class="nombre-lugar">${grupo.nombre}</p>
+    </div>
+  `;
+}, 5000);
+
+

@@ -14,7 +14,7 @@ export const ingles = `
             </ul>
         </nav>
     </header>
-        <h1>Fundación del Pueblo</h1>
+        <h1>Foundation of the Town</h1>
 
     <section id="leo">
         <div class="cont">
