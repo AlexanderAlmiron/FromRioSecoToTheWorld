@@ -20,6 +20,7 @@ export const español = `
           <li><a class="items" href="#dondeComer">¿Dónde Comer?</a></li>
           <li><a class="items" href="#dondeDormir">¿Dónde Dormir?</a></li>
           <li><a class="items" href="#GaleriaFotos">Galeria de Fotos</a></li>
+          <li><a class="items" href="./museo_virtual/index.html">Museo Virtual</a></li>
           <li><a class="items" href="./pdf/GuiaPDF.pdf" download="Guia.PDF">Guía PDF</a></li>
           <li><a class="items" href="#video">Videos</a></li>
         </ul>
@@ -335,6 +336,31 @@ export const español = `
     </div>
   </section> 
 
+<section id="GaleriaFotos">
+  <h2 class="galeria-titulo">Galería de Fotos</h1>
+    <div class="subt"><span>Diseño y Convivencia</span></div>
+
+    <div class="slider-frame">
+        <ul>
+            <li><img src="fotosGaleria/IMG-20250926-WA0086.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0087.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0088.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0089.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0093.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20251001-WA0030.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20251001-WA0031.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0072.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0077.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0079.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0096.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0097.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0100.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0101.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0118.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0119.JPG" alt=""></li>
+        </ul>
+    </div>
+</section> 
 
 <h1>Videos</h1>
   <section class="video-section" id="video">

@@ -10,30 +10,14 @@
   <link rel="stylesheet" href="./css/styles.css">
   <!-- <link rel="stylesheet" href="./actividades/stylesActividades.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <title>Home</title>
+  <title>Home</title>
 
 </head>
 
 <body>
   <div id="root"></div>
   <button id="button">ES / EN</button>
-  <h1 class="galeria-titulo">Galería de Fotos</h1>
-  <div class="carousel-wrapper" id="GaleriaFotos">
-    <div class="carousel-container">
-      <?php
-        $dir = 'fotosGaleria/';
-        $allowed_types = ['jpg', 'jpeg', 'png', 'gif', 'jfif'];
-        $files = array_diff(scandir($dir), ['.', '..']);
-        foreach ($files as $file) {
-          $file_info = pathinfo($file);
-          if (isset($file_info['extension']) && in_array(strtolower($file_info['extension']), $allowed_types)) {
-            echo '<img src="' . htmlspecialchars($dir . $file) . '" alt="' . htmlspecialchars($file) . '" class="carousel-slide">';
-          }
-        }
-      ?>
-    </div>
-  </div>
+
   <footer>
     <div class="footer-content">
         <p>Proyecto realizado por estudiantes de 6° año de la Escuela Proa</p>
@@ -56,6 +40,7 @@
 
 <!--
   <div id="root"></div>
+
   <section id="introduccion"></section>
   <section id="cultura"></section>
   <section id="ubicacion"></section>
@@ -63,7 +48,8 @@
   <section id="queHacer"></section>
   <section id="dondeComer"></section>
   <section id="dondeDormir"></section>
-  <section id="galeria"></section>
+  <section id="GaleriaFotos"></section>
   <section id="video"></section>
+  
 
 -->
