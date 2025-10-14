@@ -12,6 +12,9 @@ export const español = `
                     <ul class="links">
                         <li><a class="items" href="../../index.html">INICIO</a></li>
                     </ul>
+                    <ul class="links">
+                <li><a class="items" href="../../#queHacer">VOLVER</a></li>
+            </ul>
                 </nav>
             </header>
             
@@ -19,12 +22,12 @@ export const español = `
             <section id="leo">
                 <div class="cont">
                     <div>
-                        <img src="../../img/Leopoldo_Lugones.jpg" >
+                        <img src="../../fotos_ingles/guichonFrase.jpg">
                     </div>
             <div class="text">
                 <p>
-                        La posada del payador fue el lugar de descanso de Gustavo Guichón: allí se instalaba para planear su próximo viaje o para reencontrarse con su familia, ya que sus recorridos solían ser muy largos. La posada del payador es una Casa Museo porque tiene dos características: un familiar vive allí y el lugar ha sido declarado oficialmente como museo.
-Gustavo Guichón se dio cuenta de que podía ser payador cuando tenía ocho años. Su maestra le dio un poema para recitar en el Día de la Madre, y como lo dejó olvidado en la escuela, empezó a improvisar versos con rima.
+                    La Posada del Payador es un santuario cultural dedicado a la vida y legado de Gustavo Guichón, uno de los payadores más reverenciados de América Latina. Nacido en Uruguay, la música y la poesía de Guichón, arraigadas en las tradiciones del payador, trascendieron fronteras, convirtiéndose en una voz del pueblo. Conocido por sus improvisaciones llenas de sentimiento y su solidaridad con los humildes, Guichón no solo fue un poeta, sino un símbolo de libertad, justicia y conexión humana.
+Esta casa museo celebra su vida a través de recuerdos, fotos y objetos de sus viajes por América Latina y Europa. Los visitantes pueden explorar las herramientas de su arte—su guitarra, su mate y su poncho—y aprender sobre su profundo vínculo con las personas que conoció en el camino. La Posada del Payador es un lugar donde las historias, los valores y el arte de Gustavo Guichón siguen vivos, inspirando a nuevas generaciones a abrazar el poder de la música, la poesía y la conexión humana.
                 </p>
             </div>
             </div>

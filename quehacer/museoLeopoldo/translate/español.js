@@ -12,6 +12,12 @@ export const español = `
                     <ul class="links">
                         <li><a class="items" href="../../index.html">INICIO</a></li>
                     </ul>
+                    <ul class="links">
+                    <li><a class="items" href="../../#queHacer">VOLVER</a></li>
+                    </ul>
+                    <ul>
+                    <li><a class="items" href="../../museo_virtual/MuseoLugones/index.html">Museo Virtual</a></li>
+                    </ul>
                 </nav>
             </header>
             
@@ -19,7 +25,7 @@ export const español = `
             <section id="leo">
                 <div class="cont">
                     <div>
-                        <img src="../../img/Leopoldo_Lugones.jpg" >
+                        <img src="../../fotos_ingles/Liliana-Aguilar-8-Frente-a-la-casa-de-Leopoldo-Lugones-en-Villa-de-María-del-Río-Seco-Córdoba-Argentina-1993(1).jpg" >
                     </div>
             <div class="text">
                 <p>La Casa Museo Leopoldo Lugones se encuentra en la calle Cautivita s/n. Este museo está ubicado en la vivienda donde el célebre escritor Leopoldo Lugones pasó su infancia y fue inaugurado como museo en 2023. El espacio conserva la arquitectura típica rural de un solo piso, con un patio central que alberga un antiguo algarrobo y un pozo de agua, manteniendo el ambiente histórico de la época.
@@ -27,5 +33,13 @@ En su interior, los visitantes pueden recorrer habitaciones que exhiben objetos 
                 </p>
             </div>
             </div>
+
+        <h1></h1>
+    <section class="video-section" id="video">
+
+    <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/1B5oJhdiFrE?si=35daReCB1M9aYEN-" frameborder="20"></iframe>
+    </div>
+
         </section>
 `;

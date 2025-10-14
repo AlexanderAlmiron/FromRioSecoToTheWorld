@@ -12,6 +12,12 @@ export const español = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">INICIO</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#queHacer">VOLVER</a></li>
+            </ul>
+            <ul>
+                <li><a class="items" href="../../museo_virtual/MuseoUlla/index.html">Museo Virtual</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -19,7 +25,7 @@ export const español = `
     <section id="leo">
         <div class="cont">
             <div>
-                <img src="../../img/pancho.jpg" >
+                <img src="../../fotos_ingles/Diseño sin título.png" >
             </div>
     <div class="text">
         <p>Los hechos históricos en Río Seco son demasiados, y es así como hablamos sobre el año 1821, cuándo el supremo entrerriano que se conocía como Pancho Ramírez (aunque se llamaba Francisco) era perseguido por Juan Bautista Bustos, que en ese momento era gobernador de Córdoba, y quién le ordenó a Bedoya, su gobernador sustituto, seguirle el rastro. 

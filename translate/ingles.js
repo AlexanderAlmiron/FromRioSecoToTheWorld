@@ -19,6 +19,14 @@ export const ingles = `
             <li><a class="items" href="#queHacer">What to do?</a></li>
             <li><a class="items" href="#dondeComer">Where to eat?</a></li>
             <li><a class="items" href="#dondeDormir">Where to sleep?</a></li>
+            <li><a class="items" href="#GaleriaFotos">Gallery</a></li>
+            <li class="submenu">
+              <a class="items" href="#">Virtual Museum</a>
+                <ul class="submenu-opciones">
+                  <li><a href="./museo_virtual/MuseoLugones/index.html">Leopoldo Lugones Museum</a></li>
+                  <li><a href="./museo_virtual/MuseoUlla/index.html">Enrique Ulla Museum</a></li>
+              </ul>
+            </li>
             <li><a class="items" href="./pdf/GuiaPDF.pdf" download="GuiaPDF.pdf">PDF</a></li>
             <li><a class="items" href="#video">Videos</a></li>
         </ul>
@@ -152,7 +160,7 @@ This festival, that is realized annually, is one of the most important events of
       
       <div class="card" style="width: 18rem;">
 
-        <img src="./carrusel/cerrocolorado.jpg" class="card-img-top" alt="...">
+        <img src="fotos_ingles/cerrocolorado.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro Colorado</h5>
 
@@ -162,7 +170,7 @@ This festival, that is realized annually, is one of the most important events of
 
       <div class="card" style="width: 18rem;">
 
-        <img src="./carrusel/iglesia1.webp" class="card-img-top" alt="...">
+        <img src="fotos_ingles/iglesiaNuevo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Church</h5>
 
@@ -174,7 +182,7 @@ This festival, that is realized annually, is one of the most important events of
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/WhatsApp Image 2024-07-27 at 11.11.25 (2).jpg" class="card-img-top" alt="...">
+        <img src="fotos_ingles/museonuevo.JPG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Leopoldo Lugones Museum</h5>
 
@@ -186,7 +194,7 @@ This festival, that is realized annually, is one of the most important events of
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/museoarqueo.jfif" class="card-img-top" alt="...">
+        <img src="fotos_ingles/MuseoUlla.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Archaeological Museum</h5>
 
@@ -198,7 +206,7 @@ This festival, that is realized annually, is one of the most important events of
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/villa-maria-rio-seco-5-1 (3).webp" class="card-img-top" alt="...">
+        <img src="fotos_ingles/20250628_161823.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro del Romero Chapel</h5>
 
@@ -210,10 +218,20 @@ This festival, that is realized annually, is one of the most important events of
 
       <div class="card" style="width: 18rem;">
 
-        <img src="../carrusel/image (1).jpg" class="card-img-top" alt="...">
+        <img src="fotos_ingles/plazacentral.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Central Square</h5>
         </div>
+      
+      
+        <div class="card" style="width: 18rem;">
+      <a href="./quehacer/posadaelPayador/posadaelPayador.html">
+        <img src="fotos_ingles/PayadorGuichon.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Payador´s Inn</h5>
+      </a>
+        </div>
+
 
       </div>
     </div>
@@ -311,6 +329,45 @@ This festival, that is realized annually, is one of the most important events of
       </div>
     </div>
   </section> 
+
+<section id="GaleriaFotos">
+  <h2 class="galeria-titulo">Gallery</h1>
+    <div class="subt"><span>Places in Town</span></div>
+
+    <div class="slider-frame">
+        <ul>
+            <li><img src="fotosGaleria/IMG-20250926-WA0086.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0087.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0088.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0089.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20250926-WA0093.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20251001-WA0030.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG-20251001-WA0031.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0072.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0077.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0079.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0096.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0097.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0100.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0101.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0118.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0119.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0384.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0385.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0388.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0390.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0391.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0393.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0394.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1187.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1188.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1191.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1195.JPG" alt=""></li>
+        </ul>
+    </div>
+
+</section> 
+
 <h1>Videos</h1>
   <section class="video-section" id="video">
 

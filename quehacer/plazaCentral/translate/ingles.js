@@ -12,6 +12,9 @@ export const ingles = `
                     <ul class="links">
                         <li><a class="items" href="../../index.html">HOME</a></li>
                     </ul>
+                    <ul class="links">
+                <li><a class="items" href="../../#queHacer">BACK</a></li>
+            </ul>
                 </nav>
             </header>
             
@@ -19,11 +22,11 @@ export const ingles = `
             <section id="leo">
                 <div class="cont">
                     <div>
-                        <img src="../../img/Leopoldo_Lugones.jpg" >
+                        <img src="../../carrusel/imagenPlaza.jpg" >
                     </div>
             <div class="text">
                 <p>
-                       The San Martin Square is the urban and social nucleus of Villa de María del Río Seco. Its design reflects the typical structure of the Argentinian town square: an open space surrounded by buildings that are historically and culturally relevant.
+                    The San Martin Square is the urban and social nucleus of Villa de María del Río Seco. Its design reflects the typical structure of the Argentinian town square: an open space surrounded by buildings that are historically and culturally relevant.
 Around it there is the church Nuestra Señora del Rosario del Milagro, built in the 19th century, which houses the image of “la Cautivita” (captive virgin), object of local prayer. The park also has bust statues of José de San Martín and Domingo Faustino Sarmiento, reflecting the tradition of paying tribute to key figures of Argentine history.
 The space works as a meeting point of the community, as well as a place where civic and religious events are held, keeping a balance between its historical value and its daily use. Trees and paths organize the park, offering accessible walking places and resting zones for visitors.
 The San Martin Square represents a clear example of urban planning in small towns north of Cordoba, where the central square has a symbolic and functional role.
@@ -31,5 +34,10 @@ The San Martin Square represents a clear example of urban planning in small town
 </p>
             </div>
             </div>
-        </section>
+            <h1></h1>
+    <section class="video-section" id="video">
+
+    <div class="video-container">
+    <iframe src="https://www.tiktok.com/@ivanherrera1293/video/7555224111723646219?_r=1&_t=ZM-90VJ6eQvkpX" frameborder="20"></iframe>
+    </div>
 `;

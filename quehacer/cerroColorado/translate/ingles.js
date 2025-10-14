@@ -12,6 +12,9 @@ export const ingles = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">HOME</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#queHacer">BACK</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -20,17 +23,26 @@ export const ingles = `
     <section id="leo">
         <div class="cont">
             <div>
-                <img src="../../img/cautiva.jpg" >
+                <img src="../../fotos_ingles/cerroColoradoHs.jpg" >
             </div>
     <div class="text">
-        <p>Located in the north of Cordoba, the Cerro Colorado is a historically, archaeologically, and naturally relevant spot. It is located in the intersection of Río Seco, Sobremonte, and Tulumba, and it is part of the last foothills of Cordoba’s north's hills.
-This place is recognized mail¡nly for its over 3000 instances of cave art, made by native towns called Comechingones and Sanavirones between the fifth and sixteenth centuries. These representations include scenes of daily life, rituals, and wars, reflecting the worldview of natives to that area as well as their contact with Spanish conquistadors. Thanks to this rich culture, Cerro Colorado was declared a National Historical Monument in 1961, and afterwards, a Cultural and Natural Reserve.
-It is about 3000 hectares, with a remarkable biodiversity, including fauna like rheas, grey foxes, pumas, and several bird species; and typical flora to the region, like carob trees, talas, chañares, and espinillos. It has a great environmental and landscape value.
-In the nearby town is the House Museum Atahualpa Yupanqui, where the famous folkloric musician lived. It is now turned into a museum and a center of cultural interest.
-The access to Cerro Colorado is from National Road 9 to Santa Elena, taking a detour on Province Road 21. It is most ideal to visit with tour guides, to preserve the cave paintings, as well as getting to places more easily.
-Cerro Colorado is a clear example of a mix between natural and cultural patrimony, being a key point for understanding prehispanic history and the identity of the north of Cordoba.
- </p>
+        <p>
+        Cerro Colorado, located in the north of Córdoba Province, Argentina, is a site of great historical, archaeological, and natural significance. It is situated at the intersection of the departments of Río Seco, Sobremonte, and Tulumba, forming part of the final foothills of the northern low sierras of Córdoba.
+The site is primarily recognised for its more than 3,000 rock pictographs, created by the indigenous Comechingón and Sanavirón peoples between the 5th and 16th centuries. These depictions include scenes of daily life, rituals, riders, and battles, reflecting both the worldview of the indigenous peoples and their contact with Spanish conquistadors. Due to this cultural richness, Cerro Colorado was declared a National Historic Monument in 1961 and later a Cultural and Natural Reserve.
+The reserve covers approximately 3,000 hectares, with notable biodiversity, including fauna such as rheas, grey foxes, pumas, and various birds, and typical regional flora such as carob trees, talas, chañares, and spiny shrubs. The Colorado, Veladero, and Intihuasi hills form a landscape of great environmental and scenic value.
+Nearby is the Atahualpa Yupanqui House Museum, the residence of the renowned folk musician, now converted into a museum and cultural center.
+Access to Cerro Colorado is via National Route 9 to Santa Elena, then diverting along Provincial Route 21. Visiting the site with authorised guides is recommended, both to preserve the pictographs and to reach areas with difficult terrain.
+Cerro Colorado is a clear example of the integration of natural and cultural heritage, serving as a key point for understanding pre-Hispanic history and the identity of northern Córdoba.
+
+        </p>
     </div>
+    </div>
+
+    <h1></h1>
+    <section class="video-section" id="video">
+
+    <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/lyN75ZdlB5w?si=7YDp4A-tjdg2BwP-" frameborder="20"></iframe>
     </div>
 </section>
 `;

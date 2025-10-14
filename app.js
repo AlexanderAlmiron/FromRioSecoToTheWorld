@@ -7,7 +7,6 @@ const root = document.getElementById('root')
 const button = document.getElementById('button')
 
 root.innerHTML = español;
-inicializarCarrousel();
 let bandera = true
 
 
@@ -20,7 +19,6 @@ button.addEventListener('click', () => {
     }else{
         root.innerHTML = ingles
     }
-    inicializarCarrousel(); 
 })
 
 

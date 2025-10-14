@@ -12,6 +12,12 @@ export const ingles = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">HOME</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#queHacer">BACK</a></li>
+            </ul>
+            <ul>
+                <li><a class="items" href="../../museo_virtual/MuseoUlla/index.html">Virtual Museum</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -19,7 +25,7 @@ export const ingles = `
     <section id="leo">
         <div class="cont">
             <div>
-                <img src="../../img/pancho.jpg" >
+                <img src="../../fotos_ingles/Diseño sin título.png" >
             </div>
     <div class="text">
         <p>The historic facts in Rio Seco are too many, and that’s how we talk about the year 1821, when the supreme entrerriano that was known as Pancho Ramirez (even though when his real name was Francisco) was being persecuted by Juan Bautista Bustos, that was the governor of Cordoba at the moment, and who ordered to Bedoya, his substitute governor, keep the trace. 

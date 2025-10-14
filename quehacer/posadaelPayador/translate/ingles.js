@@ -12,21 +12,25 @@ export const ingles = `
                     <ul class="links">
                         <li><a class="items" href="../../index.html">HOME</a></li>
                     </ul>
+                    <ul class="links">
+                <li><a class="items" href="../../#queHacer">BACK</a></li>
+            </ul>
                 </nav>
             </header>
             
-            <h1>The Payador's inn</h1>
+            <h1>The Payador's Inn</h1>
             <section id="leo">
                 <div class="cont">
                     <div>
-                        <img src="../../img/Leopoldo_Lugones.jpg" >
+                        <img src="../../fotos_ingles/guichonFrase.jpg">
                     </div>
             <div class="text">
                 <p>
-                       The payador’s inn was Gustavo Guichon’s resting place: where he went to settle and plan for his next trip, or re-establish bonds with his family, since his trips used to be really long. The payador’s inn is a House Museum because it has two aspects: a family member living there, and the place being officially declared a museum.
-Gustavo Guichón realized he could be a payador when he was eight years old. His teacher gave him a poem to recite for mother’s day, and when he left it at school, he decided to start improvising verses that rhymed.
+                    The Payador’s Inn (La Posada del Payador) is a cultural sanctuary dedicated to the life and legacy of Gustavo Guichón, one of Latin America's most revered payadores. Born in Uruguay, Guichón’s music and poetry, rooted in the traditions of the payador, transcended borders, becoming a voice for the people. Known for his heartfelt improvisations and his solidarity with the humble, Guichón was not just a poet but a symbol of freedom, justice, and connection.
+This House Museum celebrates his life through memorabilia, photos, and artifacts from his travels across Latin America and Europe. Visitors can explore the tools of his craft—his guitar, mate gourd, and poncho—and learn about his deep bond with the people he met along the way. The Payador’s Inn is a place where the stories, values, and artistry of Gustavo Guichón live on, inspiring new generations to embrace the power of music, poetry, and human connection.
 
-</p>
+
+                </p>
             </div>
             </div>
         </section>

@@ -8,17 +8,33 @@ left: 41%;
 margin-top: 5%;
 text-align: center;*/
 display: grid;
-margin: 5% auto 0 auto;
+color: rgba(0, 0, 0, 0.126);
+margin: 8% auto 0 auto;
 justify-items: center;
 font-family: "Acme", sans-serif;
-font-weight: 600;
+font-weight: 800;
 font-size: xxx-large;
 font-style: normal;
 }
 
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+     /* background-color: rgba(46, 75, 126, 0.741); */ /* Fondo semitransparente */
+    background-color: rgba(30, 36, 32, 0.741);  /* Fondo semitransparente */
+    z-index: 1000;
+}
 
 body{
-    background-color: #fff2cb;
+    background-image: url("../../fotos_ingles/lugonesAdentro.jpg");
+    background-size: cover;
+    background-position: absolute;
 }
 
 #leo{
@@ -27,13 +43,19 @@ body{
     top: 20%;   */
 }
 .cont {
+    /*display: grid;
+    height: 650px;
+    width: 97vw;
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center*/
+
     align-items: center;
 }
 .cont img{
     display: grid;
     border-radius: 20px;
-    width: 310px;
-    height: 450px;
+    width: 800px;
+    height: 600px;
     margin: 1% auto;
     justify-items: center;
 }
@@ -49,7 +71,7 @@ div p {
     padding: 20px;
     font-family: "DM Serif Text", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: oblique;
 
 }
 
@@ -57,4 +79,36 @@ div p {
     h1 {
         margin: 17% auto 0 auto;
     }
+    .cont img{
+        display: grid;
+        border-radius: 20px;
+        width: 50px;
+        height: 100px;
+        margin: 1% auto;
+        justify-items: center;
+    }
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 500px;
+}
+
+.video-container {
+    flex: 1;
+    background: transparent;
+    border-radius: 8px;
+    overflow: visible;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;               
+    justify-content: center;     /* Centra horizontalmente */
+    align-items: center;         /* Centra verticalmente */
+    height: 500px;               
+}
+
+iframe {
+    width: 60%;                  
+    height: 100%;                /* Aprovecha el alto del contenedor */
 }

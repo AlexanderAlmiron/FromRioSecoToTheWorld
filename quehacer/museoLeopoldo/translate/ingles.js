@@ -12,6 +12,12 @@ export const ingles = `
                     <ul class="links">
                         <li><a class="items" href="../../index.html">HOME</a></li>
                     </ul>
+                    <ul class="links">
+                        <li><a class="items" href="../../#queHacer">BACK</a></li>
+                    </ul>
+                    <ul>
+                    <li><a class="items" href="../../museo_virtual/MuseoLugones/index.html">Virtual Museum</a></li>
+                    </ul>
                 </nav>
             </header>
             
@@ -19,7 +25,7 @@ export const ingles = `
             <section id="leo">
                 <div class="cont">
                     <div>
-                        <img src="../../img/Leopoldo_Lugones.jpg" >
+                        <img src="../../fotos_ingles/Liliana-Aguilar-8-Frente-a-la-casa-de-Leopoldo-Lugones-en-Villa-de-María-del-Río-Seco-Córdoba-Argentina-1993(1).jpg" >
                     </div>
             <div class="text">
                 <p>The house museum Leopoldo Lugones is in Cautivita street with no number. It is located where famous writer Leopoldo Lugones spent his childhood, and it was inaugurated as a museum in the year 2023. It keeps the typical rural architecture with only one floor, an indoor backyard with an old carob tree and a water well, keeping the historical environment of the time.
@@ -27,5 +33,12 @@ Inside, visitors can look through the rooms that display Lugones’ personal obj
 </p>
             </div>
             </div>
+
+            <h1></h1>
+    <section class="video-section" id="video">
+
+    <div class="video-container">
+    <iframe src="https://www.youtube.com/watch?v=1B5oJhdiFrE" frameborder="20"></iframe>
+    </div>
         </section>
 `;

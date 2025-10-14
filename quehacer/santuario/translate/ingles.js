@@ -12,21 +12,32 @@ export const ingles = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">HOME</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#queHacer">BACK</a></li>
+            </ul>
         </nav>
     </header>
-        <h1>sanctuary</h1>
+        <h1>Sanctuary</h1>
 
     <section id="leo">
         <div class="cont">
             <div>
-                <img src="../../img/fundacion2.jpg" >
+                <img src="../../fotos_ingles/iglesiaAdentro.jpg" >
             </div>
     <div class="text">
         <p>
-          Since before the foundation, there existed an old chapel in Cerro del Romero, but its transformation to a Water Fountain and Prison are close to 1760 and 1768 respectively. Then, it turned into a place for the general command of the northern border of the province of Cordoba. 
-The location was founded in 1796 because of the Cordoba governor, who gave the order, and who took as base the population that was living around the chapel and the old post where so many processors passed through, in their campaigns to the north of the country and toward the High Peru. 
- </p>
+            Santuario Nuestra Señora del Rosario – Mother Virgin Cautiva The Santuario Nuestra Señora del Rosario, Mother Virgin Cautiva, is located in Villa de María del Río Seco, Córdoba. It's a sacred place approved by the bishop, where the faithful go on pilgrimage moved by a special devotion to the Virgin. In Catholic tradition, sanctuaries are spaces for prayer, encounter, and faith.
+Believers seek to deepen their spiritual life, strengthen their hope, and manifest Christian charity through community. This sanctuary holds profound religious and cultural significance for the region's inhabitants, housing the image of La Cautivita, a symbol of faith and protection.
+Starting October 12, 2025, this temple will officially become a Sanctuary, marking a historic moment.
+        </p>
     </div>
     </div>
+
+    <div class="video-wrapper">
+    <video controls width="800">
+    <source src="../../fotos_ingles/iglesiavideo.mp4" type="video/mp4">
+    Tu navegador no soporta el video HTML5.
+</video>
+</div>
 </section>
 `;

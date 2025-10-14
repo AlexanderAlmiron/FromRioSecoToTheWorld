@@ -19,8 +19,14 @@ export const español = `
           <li><a class="items" href="#queHacer">¿Qué Hacer?</a></li>
           <li><a class="items" href="#dondeComer">¿Dónde Comer?</a></li>
           <li><a class="items" href="#dondeDormir">¿Dónde Dormir?</a></li>
-          <li><a class="items" href="#GaleriaFotos">Galeria de Fotos</a></li>
-          <li><a class="items" href="./museo_virtual/index.html">Museo Virtual</a></li>
+          <li><a class="items" href="#GaleriaFotos">Galería de Fotos</a></li>
+          <li class="submenu">
+            <a class="items" href="#">Museo Virtual</a>
+            <ul class="submenu-opciones">
+              <li><a href="./museo_virtual/MuseoLugones/index.html">Museo Leopoldo Lugones</a></li>
+              <li><a href="./museo_virtual/MuseoUlla/index.html">Museo Enrique Ulla</a></li>
+            </ul>
+          </li>
           <li><a class="items" href="./pdf/GuiaPDF.pdf" download="Guia.PDF">Guía PDF</a></li>
           <li><a class="items" href="#video">Videos</a></li>
         </ul>
@@ -48,11 +54,11 @@ export const español = `
 
     <div class="vdmp">
       <div>
-        <div>
+      <div>
           <!--<span id="imgEntrada"></span> -->
-          <img src="./carrusel/entrada.jpg" alt="" width="400px">
-        </div>
-      </div>
+        <img src="./carrusel/entrada.jpg" alt="" width="400px">
+        </div> 
+      </div> 
       <p>
         La Villa de María del Río Seco es un pueblo ubicado al norte de la provincia de Córdoba, caracterizado más
         que nada por su cultura y conocido como la cuna de los poetas. El pueblo es famoso también por ser el
@@ -106,9 +112,10 @@ export const español = `
         <iframe src="https://www.youtube.com/embed/Q8qSowgVZfw?si=mU0QtrvM0OkRSipj" frameborder="0" allowfullscreen></iframe>
     </div>
     </section>
-<h1>Historias</h1>
+
+  <h1>Historias</h1>
   <section id="historias" class="historias">
-    
+
     <div class="card" style="width: 18rem;">
       <a href="./hisoryPages/leopoldo/leopoldo.html">
         <img src="img/Leopoldo_Lugones.jpg" class="card-img-top" alt="...">
@@ -160,8 +167,9 @@ export const español = `
       </a>
     </div>
   </section>
-<h1>¿Qué Hacer?</h1>
+
   <section id="queHacer">
+  <h1>¿Qué Hacer?</h1>
     <div class="actividades">
 
       
@@ -189,7 +197,7 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
       <a href="./quehacer/museoLeopoldo/museoLeopoldo.html">
-        <img src="fotos_ingles/IMG_7469.jpg" class="card-img-top" alt="...">
+        <img src="fotos_ingles/museonuevo.JPG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Leopoldo Lugones</h5>
       </a>
@@ -201,7 +209,7 @@ export const español = `
 
       <div class="card" style="width: 18rem;">
       <a href="./quehacer/museoArqueologico/museoArqueologico.html">
-        <img src="fotos_ingles/MuseoUlla.png" class="card-img-top" alt="...">
+        <img src="fotos_ingles/museoulla0.5.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Museo Arqueológico</h5>
       </a>
@@ -236,7 +244,7 @@ export const español = `
       <a href="./quehacer/posadaelPayador/posadaelPayador.html">
         <img src="fotos_ingles/PayadorGuichon.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Casa Payador Gustavo Guichón</h5>
+          <h5 class="card-title">La Posada del Payador</h5>
       </a>
         </div>
     </div>
@@ -338,7 +346,7 @@ export const español = `
 
 <section id="GaleriaFotos">
   <h2 class="galeria-titulo">Galería de Fotos</h1>
-    <div class="subt"><span>Diseño y Convivencia</span></div>
+    <div class="subt"><span>Fotos de Lugares del Pueblo</span></div>
 
     <div class="slider-frame">
         <ul>
@@ -358,14 +366,25 @@ export const español = `
             <li><img src="fotosGaleria/IMG_0101.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_0118.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_0119.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0384.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0385.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0388.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0390.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0391.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0393.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0394.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1187.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1188.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1191.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_1195.JPG" alt=""></li>
         </ul>
     </div>
+
 </section> 
 
-<h1>Videos</h1>
+  <h1>Videos</h1>
   <section class="video-section" id="video">
 
-    
 
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/hPlP0DI496k?si=1XGBhblw7JJf3E92" frameborder="0" allowfullscreen></iframe>
@@ -375,6 +394,7 @@ export const español = `
     </div>
     <div class="video-container">
         <iframe src="https://www.youtube.com/embed/5D1GZ6lli-Q?si=8dO0kIvYmyul8Nrh" frameborder="0" allowfullscreen></iframe>
+    </div>
     </div>
 </section>
 `;

@@ -12,6 +12,9 @@ export const español = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">INICIO</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#queHacer">VOLVER</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -20,13 +23,23 @@ export const español = `
     <section id="leo">
         <div class="cont">
             <div>
-                <img src="../../img/fundacion.jpg" >
+                <img src="../../carrusel/93c06c87-3773-4839-9d1e-60f4ef68d6d4(1) (1).jpg" >
             </div>
     <div class="text">
-        <p>Antes de su fundación, Villa de María era una zona habitada por dos tipos de aborígenes: los sanavirones, que estaban hacia el este del departamento, y los comechingones, que estaban en la zona serrana, y dejaron su impronta característica en los aleros de Cerro Colorado. 
-            Y en 1615, este lugar figuraba como “Paraje del Río Seco,”, y en 1637 como “Quillovil o Quillovit del Río Seco”. Antes de que fuera fundado como Villa Real de María por el Virrey Sobremonte, en el año 1797, el lugar era conocido como Quilloamira o Quillovil, que significa agua muerta o río seco en lengua aborigen.
-            </p>
+        <p>
+            La Capilla del Cerro del Romero se encuentra en la cima de uno de los cerros más representativos de Villa de María del Río Seco. Este sitio es un lugar de gran valor espiritual y cultural para los habitantes de la región.
+La capilla fue construida en honor a la Virgen del Rosario, popularmente llamada "La Cautivita". La devoción hacia esta imagen tiene raíces en una antigua leyenda local, que cuenta que la Virgen fue raptada por indígenas durante un malón y posteriormente rescatada por los pobladores. Esta historia dio origen a un fuerte sentimiento de fe, que aún perdura.
+La construcción actual en la cima del cerro data de 1980 y, desde entonces, se ha convertido en un punto de peregrinación, especialmente durante las fiestas patronales que se celebran en octubre. Desde la capilla se puede disfrutar de una vista panorámica del valle del Río Seco y de la localidad, convirtiéndola también en un atractivo turístico y natural.
+Además, el Cerro del Romero forma parte del imaginario poético del escritor Leopoldo Lugones, nacido en Villa de María, quien lo menciona en varias de sus obras, consolidando así su valor simbólico dentro de la cultura local.
+        </p>
     </div>
     </div>
+
+    <div class="video-wrapper">
+    <video controls width="800">
+    <source src="../../fotos_ingles/cerrovideo.mp4" type="video/mp4">
+    Tu navegador no soporta el video HTML5.
+</video>
+</div>
 </section>
 `;
