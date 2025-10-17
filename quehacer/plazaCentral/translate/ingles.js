@@ -11,9 +11,8 @@ export const ingles = `
                     </label>
                     <ul class="links">
                         <li><a class="items" href="../../index.html">HOME</a></li>
-                    </ul>
-                    <ul class="links">
-                <li><a class="items" href="../../#queHacer">BACK</a></li>
+
+                        <li><a class="items" href="../../#queHacer">BACK</a></li>
             </ul>
                 </nav>
             </header>

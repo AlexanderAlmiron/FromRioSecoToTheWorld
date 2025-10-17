@@ -11,9 +11,7 @@ export const español = `
                     </label>
                     <ul class="links">
                         <li><a class="items" href="../../index.html">INICIO</a></li>
-                    </ul>
-                    <ul class="links">
-                <li><a class="items" href="../../#queHacer">VOLVER</a></li>
+                        <li><a class="items" href="../../#queHacer">VOLVER</a></li>
             </ul>
                 </nav>
             </header>

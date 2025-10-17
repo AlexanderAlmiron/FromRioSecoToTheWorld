@@ -11,11 +11,7 @@ export const español = `
             </label>
             <ul class="links">
                 <li><a class="items" href="../../index.html">INICIO</a></li>
-            </ul>
-            <ul class="links">
                 <li><a class="items" href="../../#queHacer">VOLVER</a></li>
-            </ul>
-            <ul>
                 <li><a class="items" href="../../museo_virtual/MuseoUlla/index.html">Museo Virtual</a></li>
             </ul>
         </nav>
