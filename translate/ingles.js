@@ -74,24 +74,28 @@ export const ingles = `
 <section id="cultura">
     <h1>Culture</h1>
     <div class="cul">
-        <h2>Virgin descent: </h2>
+        <h2>Virgin descent</h2>
         <img src="./img/bajadavirgen.jpg" alt="img" width="400px">
         <p>The Virgin Descent is a religious and cultural celebration that is realized in honor of Virgen del Rosario, saint patron of the place. This event, that has a big significance for the community, consists of the virgin descent from her rest place to the church or the middle center of the town, where a lot of religious events take place, such as masses, processions and prayers. 
 </p>
-        <h2>Patron saint festivities: </h2>
+<br></br>
+        <h2>Patron saint festivities</h2>
         <img src="./img/patronales.jpg" alt="img" width="400px">
         <p>There are religious and saint festivities that are made because of the honor of the saint or virgin that is considered the patron of a locality. All these festivities used to be deeply rooted to all the traditions and costumes of a community, and its date usually matches with the day where the catholic church remembers the saint or virgin correspondent. 
 </p>
-        <h2>25th May Parade: </h2>
+<br></br>
+        <h2>25th May Parade</h2>
         <img src="./img/25deMayo.jpeg" alt="img" width="400px">
         <p>It is a local celebration that commemorates the May Revolution in 1810: an event key in the history of Argentina that marked the beginning of the country's independence process. This event is celebrated annually with great enthusiasm for the community of Villa de María of Río Seco. 
 
         </p>
-        <h2>Festival of Canto y la Poesía: </h2>
+<br></br>
+        <h2>Festival of Canto y la Poesía</h2>
         <img src="./img/festival.jpg" alt="img" width="400px">
         <p>It is a cultural event that celebrates the rich artistic tradition of the region, especially focused in the folkloric music and the poem.
 This festival, that is realized annually, is one of the most important events of this region, attracting local artists as tourists from other places in the country. During the festival, various presentations are made by singers, musics, and folklore groups, whom share his art in an ambient of celebration and regional culture.
 </p>
+<br></br>
     </div>
 </section>
 
@@ -159,21 +163,21 @@ This festival, that is realized annually, is one of the most important events of
 
       
       <div class="card" style="width: 18rem;">
-
+      <a href="./quehacer/cerroColorado/cerroColorado.html">
         <img src="fotos_ingles/cerrocolorado.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro Colorado</h5>
-
+      </a>
         </div>
 
       </div>
 
       <div class="card" style="width: 18rem;">
-
+      <a href="./quehacer/santuario/santuario.html">
         <img src="fotos_ingles/iglesiaNuevo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Church</h5>
-
+          <h5 class="card-title">Sanctuary</h5>
+      </a>
         </div>
 
       </div>
@@ -181,11 +185,11 @@ This festival, that is realized annually, is one of the most important events of
 
 
       <div class="card" style="width: 18rem;">
-
+      <a href="./quehacer/museoLeopoldo/museoLeopoldo.html">
         <img src="fotos_ingles/museonuevo.JPG" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Leopoldo Lugones Museum</h5>
-
+      </a>
         </div>
 
       </div>
@@ -193,11 +197,11 @@ This festival, that is realized annually, is one of the most important events of
 
 
       <div class="card" style="width: 18rem;">
-
-        <img src="fotos_ingles/MuseoUlla.png" class="card-img-top" alt="...">
+      <a href="./quehacer/museoArqueologico/museoArqueologico.html">
+        <img src="fotos_ingles/museoulla0.5.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Archaeological Museum</h5>
-
+      </a>
         </div>
 
       </div>
@@ -205,11 +209,11 @@ This festival, that is realized annually, is one of the most important events of
 
 
       <div class="card" style="width: 18rem;">
-
+      <a href="./quehacer/capilladelCerro/capilladelCerro.html">
         <img src="fotos_ingles/20250628_161823.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Cerro del Romero Chapel</h5>
-
+      </a>
         </div>
 
       </div>
@@ -217,12 +221,14 @@ This festival, that is realized annually, is one of the most important events of
 
 
       <div class="card" style="width: 18rem;">
-
+      <a href="./quehacer/plazaCentral/plazaCentral.html">
         <img src="fotos_ingles/plazacentral.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Central Square</h5>
+      </a>
         </div>
       
+      </div>
       
         <div class="card" style="width: 18rem;">
       <a href="./quehacer/posadaelPayador/posadaelPayador.html">
@@ -270,6 +276,14 @@ This festival, that is realized annually, is one of the most important events of
         <p class="card-text">Vicente Peñaloza, X5248 Villa de María, Córdoba</p>
       </div>
     </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="fotos_ingles/cocof.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cocof Cafetería</h5>
+        <p class="card-text">9 de Julio, X5248 Villa de María, Córdoba</p>
+      </div>
+    </div>
   </section>
 <h1>Where to sleep?</h1>
   <section id="dondeDormir">
@@ -287,7 +301,7 @@ This festival, that is realized annually, is one of the most important events of
       <div class="card" style="width: 18rem;">
         <img src="./img/lastinajas.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Hotel las Tijanas</h5>
+          <h5 class="card-title">Hotel las Tinajas</h5>
           <p class="card-text">Leopoldo Lugones 30, X5248 Villa de María, Córdoba</p>
         </div>
       </div>

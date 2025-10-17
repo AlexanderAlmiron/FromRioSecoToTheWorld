@@ -34,10 +34,5 @@ The San Martin Square represents a clear example of urban planning in small town
 </p>
             </div>
             </div>
-            <h1></h1>
-    <section class="video-section" id="video">
 
-    <div class="video-container">
-    <iframe src="https://www.tiktok.com/@ivanherrera1293/video/7555224111723646219?_r=1&_t=ZM-90VJ6eQvkpX" frameborder="20"></iframe>
-    </div>
 `;

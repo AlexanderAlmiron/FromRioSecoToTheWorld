@@ -27,7 +27,7 @@ export const español = `
               <li><a href="./museo_virtual/MuseoUlla/index.html">Museo Enrique Ulla</a></li>
             </ul>
           </li>
-          <li><a class="items" href="./pdf/GuiaPDF.pdf" download="Guia.PDF">Guía PDF</a></li>
+          <li><a class="items" href="./pdf/GuiaPDF_2025.pdf" download="Guía.PDF">Guía PDF</a></li>
           <li><a class="items" href="#video">Videos</a></li>
         </ul>
       </nav>
@@ -58,7 +58,7 @@ export const español = `
           <!--<span id="imgEntrada"></span> -->
         <img src="./carrusel/entrada.jpg" alt="" width="400px">
         </div> 
-      </div> 
+      </div>
       <p>
         La Villa de María del Río Seco es un pueblo ubicado al norte de la provincia de Córdoba, caracterizado más
         que nada por su cultura y conocido como la cuna de los poetas. El pueblo es famoso también por ser el
@@ -66,12 +66,14 @@ export const español = `
         monumento histórico nacional. 
       </p>
     </div>
+
   </section>
 
   <section id="cultura">
     <h1>Cultura</h1>
     <div class="cul">
-      <h2>Bajada de la Virgen: </h2>
+
+      <h2>Bajada de la Virgen</h2>
       <img src="./img/bajadavirgen.jpg" alt="img" width="400px">
       <p> Es una celebración religiosa y cultural que se realiza en honor a la Virgen María,
         patrona del lugar. Este evento, de gran significado para la comunidad, consiste en el descenso de la
@@ -79,13 +81,17 @@ export const español = `
         de la Virgen desde su ermita o lugar sagrado hasta la iglesia o un sitio central del pueblo, donde se
         llevan
         a cabo diversas actividades religiosas, como misas, procesiones y rezos.</p>
-      <h2>Patronales: </h2>
+      <br></br>
+
+      <h2>Patronales</h2>
       <img src="./img/patronales.jpg" alt="img" width="400px">
       <p>Son celebraciones religiosas y culturales que se llevan a cabo en honor al santo o la virgen
         que es considerado el patrono o la patrona de una localidad. Estas festividades suelen estar
         profundamente arraigadas en las tradiciones y costumbres de la comunidad, y su fecha generalmente
         coincide con el día en el que la Iglesia Católica conmemora al santo o virgen correspondiente. </p>
-      <h2>Desfile del 25 de Mayo: </h2>
+      <br></br>
+
+      <h2>Desfile del 25 de Mayo</h2>
       <img src="./img/25deMayo.jpeg" alt="img" width="400px">
       <p>Es una celebración local que conmemora la Revolución de Mayo de 1810: un
         acontecimiento clave en la historia de Argentina que marcó el inicio del proceso de independencia del
@@ -96,7 +102,9 @@ export const español = `
         típicos, uniformes históricos, o atuendos tradicionales que reflejan la cultura y la historia de la
         región.
       </p>
-      <h2>Festival del Canto y la Poesía: </h2>
+      <br></br>
+
+      <h2>Festival del Canto y la Poesía</h2>
       <img src="./img/festival.jpg" alt="img" width="400px">
       <p>Es un evento cultural que celebra la rica tradición artística de la región, especialmente enfocándose en
         la música folklórica y la poesía. Este festival, que se realiza anualmente, es uno de los
@@ -104,7 +112,9 @@ export const español = `
         otras partes del país. Durante el festival, se llevan a cabo una serie de presentaciones en las que
         participan cantantes, poetas, músicos y grupos folklóricos, quienes comparten su arte en un ambiente de
         celebración y homenaje a la cultura regional. </p>
+        <br></br>
     </div>
+
   </section>
   <section id="ubicacion">
   <h1>Ubicación</h1>
@@ -187,7 +197,7 @@ export const español = `
       <a href="./quehacer/santuario/santuario.html">
         <img src="fotos_ingles/iglesiaNuevo.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Iglesia</h5>
+          <h5 class="card-title">Santuario</h5>
       </a>
         </div>
 
@@ -282,6 +292,14 @@ export const español = `
       <div class="card-body">
         <h5 class="card-title">Parador Pan de Vida</h5>
         <p class="card-text">Vicente Peñaloza, X5248 Villa de María, Córdoba</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="fotos_ingles/cocof.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cocof Cafetería</h5>
+        <p class="card-text">9 de Julio, X5248 Villa de María, Córdoba</p>
       </div>
     </div>
   </section>

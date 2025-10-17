@@ -12,10 +12,13 @@ export const ingles = `
             <ul class="links">
                 <li><a class="items" href="../../index.html">HOME</a></li>
             </ul>
+            <ul class="links">
+                <li><a class="items" href="../../#historias">BACK</a></li>
+            </ul>
         </nav>
     </header>
 
-        <h1>Cautivita</h1>
+        <h1>The Cautivita</h1>
 
     <section id="leo">
         <div class="cont">

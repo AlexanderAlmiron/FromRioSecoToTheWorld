@@ -34,11 +34,5 @@ Inside, visitors can look through the rooms that display Lugones’ personal obj
             </div>
             </div>
 
-            <h1></h1>
-    <section class="video-section" id="video">
-
-    <div class="video-container">
-    <iframe src="https://www.youtube.com/watch?v=1B5oJhdiFrE" frameborder="20"></iframe>
-    </div>
         </section>
 `;

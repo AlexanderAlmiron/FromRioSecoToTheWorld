@@ -82,33 +82,11 @@ div p {
     .cont img{
         display: grid;
         border-radius: 20px;
-        width: 50px;
-        height: 100px;
+        width: auto;
+        height: 300px;
         margin: 1% auto;
         justify-items: center;
     }
 }
 
-.video-section {
-    display: flex;
-    justify-content: center;
-    gap: 80px;
-    height: 500px;
-}
 
-.video-container {
-    flex: 1;
-    background: transparent;
-    border-radius: 8px;
-    overflow: visible;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    display: flex;               
-    justify-content: center;     /* Centra horizontalmente */
-    align-items: center;         /* Centra verticalmente */
-    height: 500px;               
-}
-
-iframe {
-    width: 60%;                  
-    height: 100%;                /* Aprovecha el alto del contenedor */
-}

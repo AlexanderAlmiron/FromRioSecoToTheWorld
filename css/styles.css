@@ -27,7 +27,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-     /* background-color: rgba(46, 75, 126, 0.741); */ /* Fondo semitransparente */
     background-color: #b92239bd;  /* Fondo semitransparente */
     z-index: 1000;
 }
@@ -49,7 +48,7 @@ span{
 }
 
 .slider-frame {
-	width: 1280px;
+	width: 100%;
     height: auto;
 	margin:50px auto 0;
 	overflow: hidden;
@@ -58,8 +57,7 @@ span{
 .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: 400%;
-	
+	width: 100%;
 	animation: slide 20s infinite alternate ease-in-out;
 }
 
@@ -109,7 +107,20 @@ span{
 }
 
 header .log img {
-    width: 70px;
+    width: 90px;
+}
+
+footer .log {
+    position: absolute;
+    bottom: 20%;
+    right: 2%;
+}
+
+
+footer .log img {
+    width: 90px; 
+    height: auto;
+
 }
 
 nav {
@@ -120,6 +131,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    
 }
 
 nav ul li {
@@ -127,7 +139,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 255, 255); /*color de las letras del header*/
+    color: #ffffff; /*color de las letras del header*/
     text-decoration: solid;
     padding: 8px 16px;
 
@@ -172,8 +184,8 @@ nav ul li a {
 
 .title {
     position: absolute;
-    top: 180px;
-    left: 130px;
+    top: 25%;
+    left: 10%;
     font-size: 80px;
     font-style: oblique;
     color: rgb(229, 241, 241);
@@ -235,7 +247,7 @@ h1 {
 
 
 #introduccion {
-    background-image: url("../../fotos_ingles/villademaria.jpg");
+    background-image: url("../fotos_ingles/villademaria.jpg");
     background-size: cover;
     background-position: absolute;
     font-size: xx-large;
@@ -282,8 +294,21 @@ h1 {
     font-size: 2rem;
 }
 
+
 .cul p {
+    background-color: rgba(71, 62, 45, 0.568);
+    /* height: 425px;
+    width: 1200px;*/
     text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 0;
+    padding: 30px;
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: oblique;
+
 }
 
 
@@ -394,8 +419,8 @@ span{
 
 
 .slider-frame {
-	width: 1280px;
-    height: auto;
+	width: auto;
+    height: 800px;
 	margin:50px auto 0;
 	overflow: hidden;
 }
@@ -403,7 +428,7 @@ span{
 .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: 400%;
+	width: 600%;
 	animation: slide 40s infinite alternate ease-in-out;
 }
 
@@ -435,23 +460,28 @@ span{
 /* Video Section */
 .video-section {
     display: flex;
+    flex-direction: column; 
     justify-content: space-between;
-    gap: 20px;
-    height: 250px;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
 }
 
 .video-container {
-    flex: 1;
-    background: white;
+    width: 100%;
+    background: transparent;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    height: 200px;
+    height: auto;
 }
 
 iframe {
     width: 100%;
-    height: 200px;
+    height: 450px;
 }
 #video-ubicacion {
     margin: 50px auto;
@@ -459,17 +489,19 @@ iframe {
     max-width: 600px; /* Limita el ancho máximo del video */
     border-radius: 10px; /* Bordes redondeados */
     overflow: hidden; /* Asegura que los bordes se mantengan */
-    height: 100%;
+    height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
 }
 
 #video-ubicacion iframe {
     width: 100%;
-    height: 350px; /* Ajusta la altura del video */
+    height: 400px; /* Ajusta la altura del video */
     border: none;
     border-radius: 10px;
 }
+
 footer {
+    position: relative;
     background-color: #333; /* Fondo oscuro */
     color: white; /* Color del texto */
     padding: 20px; /* Espaciado interno */
@@ -502,10 +534,11 @@ footer {
         background-image: url('../fotos_ingles/cerroPrincipal.png');
         
     }
-    
+
     header {
         flex-direction: column;
         align-items: flex-start;
+        text-align: center;
     }
 
     nav ul {
@@ -520,7 +553,7 @@ footer {
     }
 
     nav ul li {
-        margin: 15px 0;
+        margin: 10px 0;
     }
 
     .checkbtn {
@@ -547,25 +580,62 @@ footer {
         margin-top: 100px;
     }
 
+    #GaleriaFotos {
+    padding-top: 5%;
+    }
+
+    .galeria-titulo {
+    padding-top: 10%;
+
+
+    .slider-frame {
+	width: auto;
+    height: 800px;
+	margin:50px auto 0;
+	overflow: hidden;
+    padding-top: 5%;
+    }
+
+    .slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 800%;
+	animation: slide 40s infinite alternate ease-in-out;
+    }
+
+    .slider-frame li {
+	width: 100%;
+	list-style: disc;
+    }
+
+    .slider-frame img {
+	width: 95%;
+    }
+
     .video-section {
-        width: 400px;
+        width: 100%;
         flex-direction: column;
-        gap: 10px;
-        margin: 0 auto;
+        justify-content: space-between;
+        gap: 0;
+        margin: auto;
     }
 
     .video-container {
-        height: 150px;
+        margin: 0;
+        padding: 0;
+        height: 100%;
     }
     #video-ubicacion {
-        width: 90%; /* Más espacio para pantallas pequeñas */
+        width: 100%; /* Más espacio para pantallas pequeñas */
     }
 
     #video-ubicacion iframe {
-        height: 250px; /* Reduce la altura para pantallas pequeñas */
+        height: 100%; /* Reduce la altura para pantallas pequeñas */
+        margin: 0;
     }
 }
 
+}
 @media (max-width: 480px) {
     .title {
         font-size: 2.5rem;

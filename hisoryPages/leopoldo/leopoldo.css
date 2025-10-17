@@ -8,17 +8,34 @@ left: 41%;
 margin-top: 5%;
 text-align: center;*/
 display: grid;
-margin: 5% auto 0 auto;
+margin: 10% auto 0 auto;
 justify-items: center;
 font-family: "Acme", sans-serif;
 font-weight: 600;
 font-size: xxx-large;
 font-style: normal;
+color: #8f7550d0;
 }
 
 
 body{
-    background-color: #fff2cb;
+    background-image: url("../../fotos_ingles/fondoazuldeg.jpg");
+    background-size: cover;
+    background-position: absolute;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+     /* background-color: rgba(46, 75, 126, 0.741); */ /* Fondo semitransparente */
+    background-color: #1e2420bd;  /* Fondo semitransparente */
+    z-index: 1000;
 }
 
 #leo{

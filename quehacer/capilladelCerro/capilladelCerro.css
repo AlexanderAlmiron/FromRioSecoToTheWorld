@@ -27,7 +27,7 @@ header {
     align-items: center;
     padding: 10px 20px;
      /* background-color: rgba(46, 75, 126, 0.741); */ /* Fondo semitransparente */
-    background-color: rgba(30, 36, 32, 0.741);  /* Fondo semitransparente */
+    background-color: #1e2420bd;  /* Fondo semitransparente */
     z-index: 1000;
 }
 
@@ -82,12 +82,14 @@ div p {
     .cont img{
         display: grid;
         border-radius: 20px;
-        width: 50px;
-        height: 100px;
+        width: auto;
+        height: 400px;
         margin: 1% auto;
         justify-items: center;
     }
 }
+
+
 
 .video-wrapper {
     display: flex;

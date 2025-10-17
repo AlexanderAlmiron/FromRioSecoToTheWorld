@@ -34,12 +34,6 @@ En su interior, los visitantes pueden recorrer habitaciones que exhiben objetos 
             </div>
             </div>
 
-        <h1></h1>
-    <section class="video-section" id="video">
-
-    <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/1B5oJhdiFrE?si=35daReCB1M9aYEN-" frameborder="20"></iframe>
-    </div>
 
         </section>
 `;
