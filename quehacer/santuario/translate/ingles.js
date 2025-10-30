@@ -1,7 +1,7 @@
 export const ingles = `
 <header>
         <div class="log">
-                <img src="./../../img/logoSF.png" alt="logo" width="50px">
+                <img src="./../../fotos_ingles/logoFRSTW.png" alt="logo" width="50px">
             </a>
         </div>
         <nav>

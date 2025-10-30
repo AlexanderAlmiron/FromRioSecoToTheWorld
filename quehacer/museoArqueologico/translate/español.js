@@ -1,7 +1,7 @@
 export const español = `
       <header>
         <div class="log">
-                <img src="./../../img/logoSF.png" alt="logo" width="50px">
+                <img src="./../../fotos_ingles/logoFRSTW.png" alt="logo" width="50px">
             </a>
         </div>
         <nav>
@@ -24,11 +24,10 @@ export const español = `
                 <img src="../../fotos_ingles/Diseño sin título.png" >
             </div>
     <div class="text">
-        <p>Los hechos históricos en Río Seco son demasiados, y es así como hablamos sobre el año 1821, cuándo el supremo entrerriano que se conocía como Pancho Ramírez (aunque se llamaba Francisco) era perseguido por Juan Bautista Bustos, que en ese momento era gobernador de Córdoba, y quién le ordenó a Bedoya, su gobernador sustituto, seguirle el rastro. 
-            Su persecución da inicio en la provincia de Córdoba, que estaba a cargo del caudillo Bustos, y al llegar a la zona de San Francisco del Chañar es interceptado por una patrulla, que había salido precisamente para esperarlo y venía del fuerte de Río Seco comandado por el Coronel Francisco de Bedoya. 
-            Luego de un combate en la mañana del 10 de julio, Pancho es dado por vencido al querer volver a rescatar a su amada Delfina. 
-            Es asesinado y decapitado en el lugar, y su cabeza es trasladada y expuesta en el pueblo. Dicho lugar es hoy recordado por un monolito suyo, que está a unos metros al pie del Cerro del Romero. 
-            </p>
+        <p>
+        El Museo Arqueológico Municipal Enrique Ulla, ubicado en la esquina de 9 de Julio y Cautivita, en  Villa de María del Río Seco, Córdoba, es uno de los principales espacios dedicados a la preservación y difusión del patrimonio arqueológico del norte cordobés. Fue fundado el 29 de septiembre de 1984 bajo el nombre de Museo Arqueológico de Río Seco y tuvo como primer director a Enrique Ulla, un apasionado investigador local. Tras su fallecimiento en noviembre de 1986, la institución adoptó su nombre en homenaje..
+El museo tiene como objetivo conservar, investigar y dar a conocer las manifestaciones culturales de los pueblos originarios que habitaron la región. Su colección incluye cerámicas indígenas, morteros y piedras de moler, puntas de proyectil, elementos de tejido, material óseo humano y animal, además de reproducciones de las pinturas rupestres del yacimiento Cerro Colorado, realizadas por el artista danés Asbjorn Pedersen.
+        </p>
     </div>
     </div>
 </section>

@@ -43,11 +43,11 @@ export const ingles = `
 
     <div id="header">
         <p>
-            In Villa de María del Río Seco,<br>
+            "In Villa de María del Río Seco,<br>
             at the foot of Cerro del Romero, I was born.<br>
             And this is all I will say about myself,<br>
             because I am nothing more than the echo<br>
-            of the native song I bring here.<br>
+            of the native song I bring here."<br>
             Leopoldo Lugones.
         </p>
     </div>
@@ -366,13 +366,13 @@ This festival, that is realized annually, is one of the most important events of
             <li><img src="fotosGaleria/IMG_0101.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_0118.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_0119.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0384.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0385.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0388.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0390.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0391.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0393.JPG" alt=""></li>
-            <li><img src="fotosGaleria/IMG_0394.JPG" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0384.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0385.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0388.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0390.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0391.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0393.jpg" alt=""></li>
+            <li><img src="fotosGaleria/IMG_0394.jpg" alt=""></li>
             <li><img src="fotosGaleria/IMG_1187.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_1188.JPG" alt=""></li>
             <li><img src="fotosGaleria/IMG_1191.JPG" alt=""></li>

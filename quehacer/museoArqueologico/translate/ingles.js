@@ -1,7 +1,7 @@
 export const ingles = `
 <header>
         <div class="log">
-                <img src="./../../img/logoSF.png" alt="logo" width="50px">
+                <img src="./../../fotos_ingles/logoFRSTW.png" alt="logo" width="50px">
             </a>
         </div>
         <nav>
@@ -24,11 +24,11 @@ export const ingles = `
                 <img src="../../fotos_ingles/Diseño sin título.png" >
             </div>
     <div class="text">
-        <p>The historic facts in Rio Seco are too many, and that’s how we talk about the year 1821, when the supreme entrerriano that was known as Pancho Ramirez (even though when his real name was Francisco) was being persecuted by Juan Bautista Bustos, that was the governor of Cordoba at the moment, and who ordered to Bedoya, his substitute governor, keep the trace. 
-His persecution started at Cordoba, that was in charge of Bustos, and when Pancho got to San Francisco del Chañar –a town that is not so long–, he was intercepted by a patrol, that was out precisely to intercept him and was coming since the fort in Rio Seco, that was also commanded by the Colonel Francisco de Bedoya. 
-After the combat the Julio 10th morning, Ramirez gives up having a last wish: he wanted to come back to rescue his wife Delfina. 
-He is murdered and decapitated in the same place, and his head was moved to the town and exposed in it. That same place now has a monolith, remembering him, and it is a few meters from the Cerro del Romero. 
-</p>
+        <p>
+        The Enrique Ulla Municipal Archaeological Museum, located on the corner of 9 de Julio and Cautivita in Villa de María del Río Seco, Córdoba, is one of the main institutions dedicated to preserving and promoting the archaeological heritage of northern Córdoba. It was founded on 29 September, 1984 under the name Río Seco Archaeological Museum. Enrique Ulla, a passionate local researcher, was its first director. After his death in November 1986, the institution adopted his name in tribute.
+The museum’s mission is to preserve, research, and share the cultural expressions of the indigenous peoples who inhabited the region. Its collection includes indigenous ceramics, mortars and grinding stones, projectile points, weaving tools, human and animal bones, as well as reproductions of the rock paintings from the Cerro Colorado site, created by the Danish artist Asbjorn Pedersen.
+
+    </p>
     </div>
     </div>
 </section>
